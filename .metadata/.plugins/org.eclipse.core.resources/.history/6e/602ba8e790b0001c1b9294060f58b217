@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class DecisionMaking {
+
+	public static void main(String[] args) {
+		Scanner scnr = new Scanner(System.in);
+		System.out.print("Hello user! What is your name? ");
+		String name = scnr.next();
+		
+		System.out.print("Welcome " + name + ". Please enter an integer between 1 and 100.");
+		
+	}
+
+}
